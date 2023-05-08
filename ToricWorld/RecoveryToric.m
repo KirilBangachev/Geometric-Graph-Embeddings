@@ -16,16 +16,13 @@ function [Xhat,GraphHat,DistanceGraphHat] = RecoveryToric(G,d,beta,tau,method)
     problem.egrad = @myegrad;
     problem.ehess = @myehess;
     
-    figure; checkgradient(problem); pause;
-    figure; checkhessian(problem); pause;
+    %figure; checkgradient(problem); pause; % uncomment for numerical check of gradient
+    %figure; checkhessian(problem); pause; % uncomment for numerical check of hessian
     if method == "steepestdescent"
         Xhat = steepestdescent(problem);
     end
 
     if method == "trustregions"
-        %options.useRand = true;
-        %Xhat = trustregions(problem,options);
-        %size(Xhat)
         Xhat = trustregions(problem);
     end
 
