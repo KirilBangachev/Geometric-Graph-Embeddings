@@ -1,0 +1,320 @@
+"Richards Bay"
+Lingyuan
+Karratha
+Yeosu
+Darwin
+Nabire
+Dongola
+"Nieuw Amsterdam"
+Kolonia
+Taro
+Margate
+Kimberley
+Tapauá
+"Alice Springs"
+Mirnyy
+Geraldton
+Antofagasta
+Pontianak
+"San Julián"
+"Lake Charles"
+Karratha
+Jamestown
+Koné
+Karratha
+Salinópolis
+Nassau
+"Porto Novo"
+Katiola
+Bata
+"Port Blair"
+Lodja
+Winnipeg
+"Arraial do Cabo"
+Taxtako‘pir
+"Guerrero Negro"
+"Chake Chake"
+Saumur
+"Túxpam de Rodríguez Cano"
+Kavieng
+Natal
+Lucea
+Androka
+Vilyuchinsk
+Goodlands
+Fairbanks
+Kingston
+Hoxut
+Palikir
+Yakutsk
+"Al Līth"
+Aurangābād
+Keflavík
+"St. John's"
+Prāntij
+"Pôrto Grande"
+"Riachão das Neves"
+"Puerto Baquerizo Moreno"
+Qandala
+Adamstown
+"Praia da Vitória"
+Dolores
+Dawei
+Albany
+Siilinjärvi
+Jamestown
+Athens
+Juneau
+"Prince Albert"
+Kalispell
+"Flying Fish Cove"
+"Porto Alexandre"
+"Campos Sales"
+Halifax
+Fécamp
+"Ascención de Guarayos"
+Valdosta
+Murzuq
+Jamestown
+Bacuri
+Nicoya
+Boyarka
+"Ponta Delgada"
+"Baía Farta"
+Estelle
+Invercargill
+Kahnūj
+Nuuk
+Kamaishi
+Moorhead
+Buala
+Waddān
+Majene
+"Porto Amboim"
+"Edinburgh of the Seven Seas"
+Qaqortoq
+Wollongong
+Kristiansund
+Basco
+Pakxé
+Flagstaff
+Kingston
+Papeete
+Papeete
+Bridgetown
+Ḩadībū
+"Puerto Pimentel"
+Hanawa
+"Ad Dabbah"
+Jamestown
+Marahōm
+Kourou
+Palé
+Williston
+Epe
+Sharypovo
+Invercargill
+"San Juanito"
+Bengkulu
+Gryazi
+"Al ‘Ayn"
+"Kuala Pembuang"
+Mu’tah
+"Banora Point"
+Yakutsk
+Lompoc
+Mirnyy
+Solwezi
+Hobart
+"Nova Sintra"
+Prichard
+Weligama
+Luganville
+Sanya
+Kingston
+Pinotepa
+Korsakov
+Kingston
+Atar
+Morombe
+"North Platte"
+Nakhodka
+Yellowknife
+"Arraial do Cabo"
+"Sungai Penuh"
+"Câmara de Lobos"
+Victoria
+Gedaref
+Chuy
+Tarija
+"Nieuw Amsterdam"
+Caracaraí
+Michurinsk
+"San Luis"
+Sisimiut
+Palmas
+Caraguatatuba
+Pedernales
+Waitangi
+Yellowknife
+Balabac
+Timaru
+Kalgoorlie
+Longyearbyen
+Phichit
+Bhīmunipatnam
+"Acapulco de Juárez"
+Itaituba
+Greenville
+Lata
+Gaizhou
+"Mount Gambier"
+Tocopilla
+Balyqshy
+"East London"
+Tonantins
+Xigazê
+Huaraz
+Koné
+Galich
+Alma
+Pampa
+Boise
+"In Guezzam"
+Sawahlunto
+Miramar
+Nouméa
+Yarmouth
+Yelizovo
+Ch’ŏngjin
+Sinop
+Nuku‘alofa
+Darwin
+"Banī Ḩasan ash Shurūq"
+"Qacha’s Nek"
+Cartagena
+"Angra do Heroísmo"
+Tabursuq
+Papeete
+Chita
+Chistopol
+"Kuala Lipis"
+"San José de Chiquitos"
+Akureyri
+"Flying Fish Cove"
+Lompoc
+"Hassi Messaoud"
+Launceston
+Tissamaharama
+Longyearbyen
+Mata-Utu
+Manzanillo
+Kasama
+Gallup
+Sentani
+Gusau
+Tarko-Sale
+Tigoa
+Toowoomba
+Nuuk
+"Wood Buffalo"
+"An Nuhūd"
+Yakutsk
+"El Golea"
+"Porto Inglês"
+Arlit
+Inhambane
+Necochea
+Magadan
+"Ribeira Grande"
+Papeete
+Walvisbaai
+Hazar
+Karratha
+Manzanillo
+Comodoro
+Adamstown
+Slyudyanka
+Tutóia
+Anadyr
+Camaná
+Serdar
+Lincoln
+Kaithal
+Borzya
+Alma
+Newton
+Hamilton
+Jalingo
+Laguna
+Pen
+"Hampton Bays"
+Qitai
+Fushun
+Janjanbureh
+Carauari
+Ḩadībū
+Fresnillo
+"São Félix do Xingu"
+"King Edward Point"
+"Carmen de Patagones"
+Jaicós
+Jambi
+Tofol
+Bengkulu
+Ḩā’il
+Curepipe
+Alma
+Mwanza
+Osowa
+Castlebar
+Puntarenas
+"Puerto Escondido"
+Mongu
+Bávaro
+Papeete
+Camaná
+Duayaw-Nkwanta
+Zābol
+Jamestown
+Sisimiut
+Geraldton
+"Sioux Falls"
+"Ḑulay‘ Rashīd"
+"Edinburgh of the Seven Seas"
+Ahumada
+Benicarló
+Kronjo
+Feyẕābād
+Qarqan
+Rybinsk
+Mariental
+Pariaman
+Hövsan
+Maga
+Weno
+Omutninsk
+Palé
+"Makedonski Brod"
+"Praia da Vitória"
+Tofol
+"Limoeiro do Ajuru"
+Neenah
+Camiri
+Lata
+Yuzhno-Sakhalinsk
+Vagos
+Noginsk
+Invercargill
+"Port Macquarie"
+Şūr
+Ilulissat
+"East London"
+Fairbanks
+Biak
+Eureka
+Adamstown
+Sittwe
+"Mount Gambier"
+Alofi
+Boende
