@@ -13,8 +13,8 @@ function [Xhat,GGX] = RecoverySpherical(G, d,beta,method)
     problem.egrad = @myegrad;
     problem.ehess = @myehess;
     
-    %figure; checkgradient(problem); pause;
-    %figure; checkhessian(problem); pause;
+    %figure; checkgradient(problem); pause; %uncomment for numerical grad check  
+    %figure; checkhessian(problem); pause; %uncomment for numerical hess check
     if method == "steepestdescent"
         Xhat = steepestdescent(problem);
     end
@@ -25,7 +25,7 @@ function [Xhat,GGX] = RecoverySpherical(G, d,beta,method)
     GGX = 0.5.*sign(Xhat'*Xhat)+0.5.*(ones(n,n)-4.*eye(n));
 
     function sigmax = sigma(myx)
-        sigmax = 1/(1 + exp(-beta*myx));
+        sigmax = 1/(1 + exp(beta*myx));
     end
 
     function [cost, store] = mycost(Y, store)
@@ -33,7 +33,7 @@ function [Xhat,GGX] = RecoverySpherical(G, d,beta,method)
         for i = 1:n
             for j = 1:n
                 if G(i,j)>=0
-                    sigma_val = sigma(dot(Y(:,i), Y(:,j))); 
+                    sigma_val = sigma(-dot(Y(:,i), Y(:,j))); 
                     cost = cost - G(i,j)*log(sigma_val) - (1-G(i,j))*log(1 - sigma_val);
                 end
             end
@@ -45,10 +45,8 @@ function [Xhat,GGX] = RecoverySpherical(G, d,beta,method)
         for i  = 1:n
             for j  = 1:n
                 if G(i,j)>=0
-                    sigma_val = sigma(dot(Y(:,i), Y(:,j)));
-                    egrad(:,i) = egrad(:,i)-...
-                        2.*(G(i,j)*beta*(1-sigma_val)-...
-                        (1 - G(i,j))*beta*sigma_val).*Y(:,j);
+                    sigma_val = sigma(-dot(Y(:,i), Y(:,j)));
+                    egrad(:,i) = egrad(:,i)-2*beta.*(G(i,j)-sigma_val).*Y(:,j);
                 end
             end
         end
@@ -59,14 +57,13 @@ function [Xhat,GGX] = RecoverySpherical(G, d,beta,method)
         for i  = 1:n
             for j  = 1:n
                 if G(i,j)>=0
-                    sigma_val = sigma(dot(Y(:,i), Y(:,j)));
+                    sigma_val = sigma(-dot(Y(:,i), Y(:,j)));
                     scalar_contribution = 2.*( ...
                     (beta^2)*sigma_val*(1-sigma_val)*(dot(Y(:,i), V(:,j)) + dot(Y(:,j), V(:,i)))).*Y(:,j);
-                    vector_contribution = -2.*(G(i,j)*beta*(1-sigma_val)-(1 - G(i,j))*beta*sigma_val).*V(:,j);
+                    vector_contribution = -2*beta.*(G(i,j)-sigma_val).*V(:,j);
                     ehessv(:,i) = ehessv(:,i) + scalar_contribution + vector_contribution;
                 end
             end
         end
     end
-
 end
