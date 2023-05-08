@@ -1,1 +1,1 @@
-Estimating Geodesic Distances
+Estimating geodesic distances from adjacency matrix of Spherical RGG. 
