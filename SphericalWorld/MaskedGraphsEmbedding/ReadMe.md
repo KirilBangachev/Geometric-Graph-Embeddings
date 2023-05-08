@@ -1,1 +1,1 @@
-Experiments on masked sphericalrandomgeometric graphs
+Experiments on masked spherical random geometric graphs.
