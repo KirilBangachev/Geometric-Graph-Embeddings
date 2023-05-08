@@ -17,4 +17,3 @@ In this repository:
 - paper.pdf explaining our methods.
 - SphericalWorld folder with implementtaion for the $L_2$ spherical geometric graphs.
 - ToricWorld folder with implementtaion for the Manhattain toric geometric graphs.
-- CityExperiment folder with data and python processing notebook for the cities experiment.
