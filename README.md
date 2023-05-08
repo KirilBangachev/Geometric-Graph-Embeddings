@@ -14,6 +14,6 @@ We propose an empirical solution by formulating a corresponding minimzation prob
 Our code is based on the manopt library.
 
 In this repository:
-- paper.pdf explaining our methods.
+- paper.pdf explaining our methods (to be added very soon).
 - SphericalWorld folder with implementtaion for the $L_2$ spherical geometric graphs.
 - ToricWorld folder with implementtaion for the Manhattain toric geometric graphs.
