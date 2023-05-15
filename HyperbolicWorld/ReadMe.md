@@ -1,0 +1,1 @@
+Folder containing files for embedding geometric graphs in the Lorenizan formulation of Hyperbolic space, as in https://github.com/NicolasBoumal/manopt/blob/master/manopt/manifolds/hyperbolic/hyperbolicfactory.m
