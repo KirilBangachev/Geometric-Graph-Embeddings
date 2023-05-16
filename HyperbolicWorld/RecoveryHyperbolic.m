@@ -27,7 +27,7 @@ function [Xhat, GraphHat,DistancesHat] = RecoveryHyperbolic(G,d,beta,tau,method)
     end
 
     if method == "trustregions"
-        options.maxiter = 500;
+        options.maxiter = 1000;
         [Xhat,~] = trustregions(problem,[],options);
     end
 
